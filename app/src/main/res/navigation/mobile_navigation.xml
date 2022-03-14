@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.myapplication.ui.Fridge.FridgeFragment"
+        android:label="我的冰箱"
+        tools:layout="@layout/fragment_fridge" />
+
+    <fragment
+        android:id="@+id/navigation_recipe"
+        android:name="com.example.myapplication.ui.recipes.RecipesFragment"
+        android:label="瀏覽食譜"
+        tools:layout="@layout/fragment_recipes" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.myapplication.ui.settings.settingsFragment"
+        android:label="設定"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/navigation_purchase"
+        android:name="com.example.myapplication.ui.Purchase.PurchaseFragment"
+        android:label="採購清單"
+        tools:layout="@layout/fragment_purchase" />
+</navigation>
