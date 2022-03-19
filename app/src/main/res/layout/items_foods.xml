@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txv_FoodsName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="名稱"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txv_FoodsDate"
+        app:layout_constraintEnd_toStartOf="@+id/txv_FoodsDate"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txv_FoodsDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="日期"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/txv_FoodsAmount"
+        app:layout_constraintStart_toEndOf="@+id/txv_FoodsName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txv_FoodsAmount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="數量"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txv_FoodsDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txv_FoodsDate" />
+</androidx.constraintlayout.widget.ConstraintLayout>
