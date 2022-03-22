@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/graduate/ProjectIM/app/src/main/res/drawable/ic_settings.xml" value="0.255" />
         <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/activity_auth.xml" value="0.3619791666666667" />
         <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/activity_forgot_password.xml" value="0.3619791666666667" />
         <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/activity_register.xml" value="0.3619791666666667" />
+        <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/fragment_add_recipe.xml" value="0.109375" />
+        <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/fragment_addrecipe.xml" value="0.24947916666666667" />
         <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/fragment_fridge.xml" value="0.4" />
         <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/fragment_purchase.xml" value="0.3619791666666667" />
-        <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/fragment_recipes.xml" value="0.3619791666666667" />
+        <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/fragment_recipes.xml" value="0.1" />
         <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/fragment_settings.xml" value="0.3619791666666667" />
         <entry key="..\:/graduate/ProjectIM/app/src/main/res/layout/items_foods.xml" value="0.3619791666666667" />
         <entry key="..\:/graduate/test01/app/src/main/res/drawable/ic_fridge.xml" value="0.24" />

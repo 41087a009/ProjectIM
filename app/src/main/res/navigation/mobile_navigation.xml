@@ -21,10 +21,19 @@
         android:id="@+id/navigation_settings"
         android:name="com.example.myapplication.ui.settings.settingsFragment"
         android:label="設定"
-        tools:layout="@layout/fragment_settings" />
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_navigation_settings_to_addRecipeFragment"
+            app:destination="@id/addRecipeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_purchase"
         android:name="com.example.myapplication.ui.Purchase.PurchaseFragment"
         android:label="採購清單"
         tools:layout="@layout/fragment_purchase" />
+    <fragment
+        android:id="@+id/addRecipeFragment"
+        android:name="com.example.myapplication.AddRecipeFragment"
+        android:label="fragment_add_recipe"
+        tools:layout="@layout/fragment_add_recipe" />
 </navigation>
